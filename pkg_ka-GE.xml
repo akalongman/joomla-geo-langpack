@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<extension version="3.4" type="package" method="upgrade">
-    <name>Georgian Language Pack</name>
+<extension version="3.3" type="package" method="upgrade">
+    <name>Georgian (ka-GE) Language Pack</name>
     <packagename>ka-GE</packagename>
-    <version>3.4.1.1</version>
-    <url>http://longman.ge</url>
-    <packager>Avtandil Kikabidze</packager>
-    <packagerurl>http://longman.ge</packagerurl>
-    <description>Joomla 3.4 Georgian Language Package</description>
+    <version>3.3.1.1</version>
+    <url>https://github.com/akalongman/joomla-geo-langpack</url>
+    <packager>Georgian Translation Team</packager>
+    <packagerurl>https://github.com/akalongman/joomla-geo-langpack</packagerurl>
+    <description>Joomla 3.3 Georgian Language Package</description>
+    <copyright>Copyright (C) 2005 - 2015 Open Source Matters. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
     <files>
         <file type="language" client="site" id="ka-GE">site_ka-GE.zip</file>
         <file type="language" client="administrator" id="ka-GE">admin_ka-GE.zip</file>

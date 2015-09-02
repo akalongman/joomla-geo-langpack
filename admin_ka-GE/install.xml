@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="3.4" client="administrator" type="language" method="upgrade">
+<extension version="3.3" client="administrator" type="language" method="upgrade">
     <name>Georgian</name>
     <tag>ka-GE</tag>
-    <version>3.4.1.1</version>
+    <version>3.3.1.1</version>
     <creationDate>2015-09-01</creationDate>
-    <author>Avtandil Kikabidze</author>
+    <author>Georgian Translation Team</author>
     <authorEmail>akalongman@gmail.com</authorEmail>
-    <authorUrl>www.longman.ge</authorUrl>
-    <copyright>Copyright (C) 2005 - 2015 Open Source Matters. All rights reserved</copyright>
+    <authorUrl>https://github.com/akalongman/joomla-geo-langpack</authorUrl>
+    <copyright>Copyright (C) 2005 - 2015 Open Source Matters. All rights reserved.</copyright>
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-    <description>Georgian language pack (administrator) for Joomla! 3.4.1</description>
+    <description>ka-GE administrator language</description>
     <files>
-        <filename>index.html</filename>
         <filename>ka-GE.com_admin.ini</filename>
         <filename>ka-GE.com_admin.sys.ini</filename>
-        <filename>ka-GE.com_ajax.ini</filename>
-        <filename>ka-GE.com_ajax.sys.ini</filename>
         <filename>ka-GE.com_banners.ini</filename>
         <filename>ka-GE.com_banners.sys.ini</filename>
+        <filename>ka-GE.com_ajax.ini</filename>
+        <filename>ka-GE.com_ajax.sys.ini</filename>
         <filename>ka-GE.com_cache.ini</filename>
         <filename>ka-GE.com_cache.sys.ini</filename>
         <filename>ka-GE.com_categories.ini</filename>
@@ -116,9 +115,9 @@
         <filename>ka-GE.plg_authentication_ldap.sys.ini</filename>
         <filename>ka-GE.plg_captcha_recaptcha.ini</filename>
         <filename>ka-GE.plg_captcha_recaptcha.sys.ini</filename>
+        <filename>ka-GE.plg_content_emailcloak.ini</filename>
         <filename>ka-GE.plg_content_contact.ini</filename>
         <filename>ka-GE.plg_content_contact.sys.ini</filename>
-        <filename>ka-GE.plg_content_emailcloak.ini</filename>
         <filename>ka-GE.plg_content_emailcloak.sys.ini</filename>
         <filename>ka-GE.plg_content_finder.ini</filename>
         <filename>ka-GE.plg_content_finder.sys.ini</filename>
@@ -132,6 +131,12 @@
         <filename>ka-GE.plg_content_pagenavigation.sys.ini</filename>
         <filename>ka-GE.plg_content_vote.ini</filename>
         <filename>ka-GE.plg_content_vote.sys.ini</filename>
+        <filename>ka-GE.plg_editors_codemirror.ini</filename>
+        <filename>ka-GE.plg_editors_codemirror.sys.ini</filename>
+        <filename>ka-GE.plg_editors_none.ini</filename>
+        <filename>ka-GE.plg_editors_none.sys.ini</filename>
+        <filename>ka-GE.plg_editors_tinymce.ini</filename>
+        <filename>ka-GE.plg_editors_tinymce.sys.ini</filename>
         <filename>ka-GE.plg_editors-xtd_article.ini</filename>
         <filename>ka-GE.plg_editors-xtd_article.sys.ini</filename>
         <filename>ka-GE.plg_editors-xtd_image.ini</filename>
@@ -140,12 +145,6 @@
         <filename>ka-GE.plg_editors-xtd_pagebreak.sys.ini</filename>
         <filename>ka-GE.plg_editors-xtd_readmore.ini</filename>
         <filename>ka-GE.plg_editors-xtd_readmore.sys.ini</filename>
-        <filename>ka-GE.plg_editors_codemirror.ini</filename>
-        <filename>ka-GE.plg_editors_codemirror.sys.ini</filename>
-        <filename>ka-GE.plg_editors_none.ini</filename>
-        <filename>ka-GE.plg_editors_none.sys.ini</filename>
-        <filename>ka-GE.plg_editors_tinymce.ini</filename>
-        <filename>ka-GE.plg_editors_tinymce.sys.ini</filename>
         <filename>ka-GE.plg_extension_joomla.ini</filename>
         <filename>ka-GE.plg_extension_joomla.sys.ini</filename>
         <filename>ka-GE.plg_finder_categories.ini</filename>
@@ -214,8 +213,9 @@
         <filename>ka-GE.tpl_hathor.sys.ini</filename>
         <filename>ka-GE.tpl_isis.ini</filename>
         <filename>ka-GE.tpl_isis.sys.ini</filename>
-        <filename file="meta">install.xml</filename>
+        <filename>index.html</filename>
         <filename file="meta">ka-GE.xml</filename>
+        <filename file="meta">install.xml</filename>
     </files>
-
+    <params />
 </extension>
